@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#b386e6, #9089ef);
+    overflow-y: hidden;
+}
+.container{
+    width: 18rem;
+    height: 17rem;
+    /* border: 1px solid #000; */
+    position: relative;
+    margin: 6rem auto 0;
+    box-shadow:0 8px 8px 0 rgb(143, 122, 211), 0 10px 20px 0 rgb(143, 122, 211);
+    color: #fff;
+    font-size: .9rem;
+    border-radius: .9rem;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    position: relative;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem 1rem 1.7rem;
+    background-image: linear-gradient(to right, #b87dda,#aa7ad3);
+    position: relative;
+}
+.content{
+    background-color: #5f5280;
+    padding: 2rem 1.3rem;
+    line-height: 1.9rem;
+    position: relative;
+}
+.dot{
+    width: .4rem;
+    height: .4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: .2rem;
+}
+.holiday, .berlin, .summer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.image{
+    width: 1.5rem;
+    background-color: #fff;
+    padding: .2rem;
+    border-radius: 50%;
+    position: relative;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: 1.6rem 1rem;
+    background-image: linear-gradient(to right, #a87bd5, #9077ce);
+    background-size: initial;
+}
+/* White-border styles */
+.firstline{
+    width: .12rem;
+    height: 2.6rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 1.3rem;
+    left: .65rem;
+}
+.line2{
+    width: .07rem;
+    height: 2.2rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 1.65rem;
+}
+.line3{
+    width: .07rem;
+    height: 1rem;
+    background-color: #fff;
+    position: absolute;
+    left: 1.65rem;
+    bottom: 5.2rem;
+}
+.line4{
+    width: .07rem;
+    height: 1rem;
+    background-color: #fff;
+    position: absolute;
+    left: 1.65rem;
+    bottom: 3.35rem;
+}
+.line5{
+    width: .12rem;
+    height: 3.6rem;
+    background-color: #fff;
+    position: absolute;
+    left: 1.65rem;
+}
+.line6{
+    width: .07rem;
+    height: 1.7rem;
+    background-color: #fff;
+    position: absolute;
+    left: 1.7rem;
+    bottom: -3rem;
+}
